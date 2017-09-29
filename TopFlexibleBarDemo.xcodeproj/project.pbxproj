@@ -13,6 +13,7 @@
 		47B23A1A1F7E264F00F260DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B23A181F7E264F00F260DF /* Main.storyboard */; };
 		47B23A1C1F7E264F00F260DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B23A1B1F7E264F00F260DF /* Assets.xcassets */; };
 		47B23A1F1F7E264F00F260DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B23A1D1F7E264F00F260DF /* LaunchScreen.storyboard */; };
+		47B23A281F7E337C00F260DF /* TopFiexibleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B23A271F7E337C00F260DF /* TopFiexibleBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		47B23A1B1F7E264F00F260DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47B23A1E1F7E264F00F260DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47B23A201F7E264F00F260DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B23A261F7E337C00F260DF /* TopFiexibleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopFiexibleBar.h; sourceTree = "<group>"; };
+		47B23A271F7E337C00F260DF /* TopFiexibleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopFiexibleBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				47B23A1D1F7E264F00F260DF /* LaunchScreen.storyboard */,
 				47B23A201F7E264F00F260DF /* Info.plist */,
 				47B23A0F1F7E264F00F260DF /* Supporting Files */,
+				47B23A261F7E337C00F260DF /* TopFiexibleBar.h */,
+				47B23A271F7E337C00F260DF /* TopFiexibleBar.m */,
 			);
 			path = TopFlexibleBarDemo;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				47B23A171F7E264F00F260DF /* ViewController.m in Sources */,
 				47B23A141F7E264F00F260DF /* AppDelegate.m in Sources */,
 				47B23A111F7E264F00F260DF /* main.m in Sources */,
+				47B23A281F7E337C00F260DF /* TopFiexibleBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
